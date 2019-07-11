@@ -10,12 +10,12 @@ public class DiceGameGreater{
 	int b = r.nextInt(6);
 	int total=a+b;
 	
-	System.out.println("What is your name ?");
+	//System.out.println("What is your name ?");
 
-	Scanner scan = new Scanner(System.in);
-	System.out.print(">");
-	String str = scan.next();
-	System.out.println("Hello, " + str + "!");
+	//Scanner scan = new Scanner(System.in);
+	//System.out.print(">");
+	//String str = scan.next();
+	//System.out.println("Hello, " + str + "!");
 	
 	
 	
@@ -24,9 +24,9 @@ public class DiceGameGreater{
 	System.out.println("Die 2:"+b);
 	System.out.println("Total Value:"+total);
 	if(total>7) {
-		System.out.println( str +" won!");
+		System.out.println( " won!");
 	}else {
-		System.out.println( str +" lose");
+		System.out.println( " lose");
 	}
 	
 	}
